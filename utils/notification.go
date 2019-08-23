@@ -21,7 +21,7 @@ import (
 
 	"runtime"
 
-	"github.com/beego/bee/config"
+	"github.com/sharljimhtsin/bee-for-bsd/config"
 )
 
 const appName = "Beego"

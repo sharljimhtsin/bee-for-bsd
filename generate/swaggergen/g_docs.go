@@ -32,12 +32,12 @@ import (
 	"strings"
 	"unicode"
 
-	yaml "gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v2"
 
 	"github.com/astaxie/beego/swagger"
 	"github.com/astaxie/beego/utils"
-	beeLogger "github.com/beego/bee/logger"
-	bu "github.com/beego/bee/utils"
+	beeLogger "github.com/sharljimhtsin/bee-for-bsd/logger"
+	bu "github.com/sharljimhtsin/bee-for-bsd/utils"
 )
 
 const (
@@ -802,7 +802,7 @@ func setParamType(para *swagger.Parameter, typ string, pkgpath, controllerName s
 		paraFormat = typeFormat[1]
 		if para.In == "body" {
 			para.Schema = &swagger.Schema{
-				Type: paraType,
+				Type:   paraType,
 				Format: paraFormat,
 			}
 		}

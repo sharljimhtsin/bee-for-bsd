@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/beego/bee/logger/colors"
-	"github.com/beego/bee/utils"
+	"github.com/sharljimhtsin/bee-for-bsd/logger/colors"
+	"github.com/sharljimhtsin/bee-for-bsd/utils"
 )
 
 // Command is the unit of execution

@@ -24,12 +24,12 @@ import (
 
 	"strings"
 
-	"github.com/beego/bee/cmd/commands"
-	"github.com/beego/bee/cmd/commands/version"
-	"github.com/beego/bee/config"
-	"github.com/beego/bee/logger"
-	"github.com/beego/bee/logger/colors"
-	"github.com/beego/bee/utils"
+	"github.com/sharljimhtsin/bee-for-bsd/cmd/commands"
+	"github.com/sharljimhtsin/bee-for-bsd/cmd/commands/version"
+	"github.com/sharljimhtsin/bee-for-bsd/config"
+	"github.com/sharljimhtsin/bee-for-bsd/logger"
+	"github.com/sharljimhtsin/bee-for-bsd/logger/colors"
+	"github.com/sharljimhtsin/bee-for-bsd/utils"
 )
 
 var cmdRs = &commands.Command{

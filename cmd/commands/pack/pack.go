@@ -18,10 +18,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/beego/bee/cmd/commands"
-	"github.com/beego/bee/cmd/commands/version"
-	beeLogger "github.com/beego/bee/logger"
-	"github.com/beego/bee/utils"
+	"github.com/sharljimhtsin/bee-for-bsd/cmd/commands"
+	"github.com/sharljimhtsin/bee-for-bsd/cmd/commands/version"
+	beeLogger "github.com/sharljimhtsin/bee-for-bsd/logger"
+	"github.com/sharljimhtsin/bee-for-bsd/utils"
 )
 
 var CmdPack = &commands.Command{

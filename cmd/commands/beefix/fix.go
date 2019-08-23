@@ -10,10 +10,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/beego/bee/cmd/commands"
-	"github.com/beego/bee/cmd/commands/version"
-	beeLogger "github.com/beego/bee/logger"
-	"github.com/beego/bee/logger/colors"
+	"github.com/sharljimhtsin/bee-for-bsd/cmd/commands"
+	"github.com/sharljimhtsin/bee-for-bsd/cmd/commands/version"
+	beeLogger "github.com/sharljimhtsin/bee-for-bsd/logger"
+	"github.com/sharljimhtsin/bee-for-bsd/logger/colors"
 )
 
 var CmdFix = &commands.Command{

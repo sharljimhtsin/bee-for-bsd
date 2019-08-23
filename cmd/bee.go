@@ -16,22 +16,22 @@
 package cmd
 
 import (
-	_ "github.com/beego/bee/cmd/commands/api"
-	_ "github.com/beego/bee/cmd/commands/bale"
-	_ "github.com/beego/bee/cmd/commands/beefix"
-	_ "github.com/beego/bee/cmd/commands/dockerize"
-	_ "github.com/beego/bee/cmd/commands/generate"
-	_ "github.com/beego/bee/cmd/commands/hprose"
-	_ "github.com/beego/bee/cmd/commands/migrate"
-	_ "github.com/beego/bee/cmd/commands/new"
-	_ "github.com/beego/bee/cmd/commands/pack"
-	_ "github.com/beego/bee/cmd/commands/rs"
-	_ "github.com/beego/bee/cmd/commands/run"
-	_ "github.com/beego/bee/cmd/commands/server"
-	_ "github.com/beego/bee/cmd/commands/version"
-	"github.com/beego/bee/utils"
 	"github.com/sharljimhtsin/bee-for-bsd/cmd/commands"
+	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/api"
+	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/bale"
+	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/beefix"
 	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/dlv"
+	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/dockerize"
+	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/generate"
+	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/hprose"
+	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/migrate"
+	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/new"
+	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/pack"
+	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/rs"
+	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/run"
+	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/server"
+	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/version"
+	"github.com/sharljimhtsin/bee-for-bsd/utils"
 )
 
 func IfGenerateDocs(name string, args []string) bool {

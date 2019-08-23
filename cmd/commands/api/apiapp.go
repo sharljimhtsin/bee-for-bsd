@@ -20,11 +20,11 @@ import (
 	path "path/filepath"
 	"strings"
 
-	"github.com/beego/bee/cmd/commands"
-	"github.com/beego/bee/cmd/commands/version"
-	"github.com/beego/bee/generate"
-	beeLogger "github.com/beego/bee/logger"
-	"github.com/beego/bee/utils"
+	"github.com/sharljimhtsin/bee-for-bsd/cmd/commands"
+	"github.com/sharljimhtsin/bee-for-bsd/cmd/commands/version"
+	"github.com/sharljimhtsin/bee-for-bsd/generate"
+	beeLogger "github.com/sharljimhtsin/bee-for-bsd/logger"
+	"github.com/sharljimhtsin/bee-for-bsd/utils"
 )
 
 var CmdApiapp = &commands.Command{
