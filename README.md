@@ -57,23 +57,24 @@ Bee provides a variety of commands which can be helpful at various stages of dev
 To display the current version of `bee`, `beego` and `go` installed on your machine:
 
 ```bash
-$ bee version
+HKBSD# ./main version
+2019/08/23 17:17:35 ERROR    ▶ 0001 You need to set GOPATH environment variable
 ______
 | ___ \
 | |_/ /  ___   ___
 | ___ \ / _ \ / _ \
 | |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+\____/  \___| \___| v1.10.0
 
-├── Beego     : 1.7.2
-├── GoVersion : go1.7.4
-├── GOOS      : linux
+├── Beego     :
+├── GoVersion : go1.12.1
+├── GOOS      : openbsd
 ├── GOARCH    : amd64
-├── NumCPU    : 2
-├── GOPATH    : /home/beeuser/.go
-├── GOROOT    : /usr/lib/go
+├── NumCPU    : 1
+├── GOPATH    :
+├── GOROOT    : /usr/local/go
 ├── Compiler  : gc
-└── Date      : Monday, 26 Dec 2016
+└── Date      : Friday, 23 Aug 2019
 ```
 
 You can also change the output format using `-o` flag:
