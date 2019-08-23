@@ -16,7 +16,6 @@
 package cmd
 
 import (
-	"github.com/beego/bee/cmd/commands"
 	_ "github.com/beego/bee/cmd/commands/api"
 	_ "github.com/beego/bee/cmd/commands/bale"
 	_ "github.com/beego/bee/cmd/commands/beefix"
@@ -31,6 +30,7 @@ import (
 	_ "github.com/beego/bee/cmd/commands/server"
 	_ "github.com/beego/bee/cmd/commands/version"
 	"github.com/beego/bee/utils"
+	"github.com/sharljimhtsin/bee-for-bsd/cmd/commands"
 	_ "github.com/sharljimhtsin/bee-for-bsd/cmd/commands/dlv"
 )
 
